@@ -15,4 +15,4 @@ def verificador_palabra(palabra_ingresada, palabra_secreta):
             letras_verificadas.append(palabra_ingresada[i])
     return letras_verificadas
 
-verificador_palabra('holas', 'calor')
+
