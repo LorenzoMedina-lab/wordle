@@ -1,8 +1,8 @@
-letras_verificadas = []
-cantidad_letras = 5
+
 
 def verificador_palabra(palabra_ingresada, palabra_secreta):
     letras_verificadas = []
+    cantidad_letras = 5
     for i in range(cantidad_letras):
         las_palabras_son_iguales = palabra_ingresada[i] == palabra_secreta[i] # True o False
         la_letra_existe_en_la_palabra = palabra_ingresada[i] in palabra_secreta 
@@ -14,5 +14,4 @@ def verificador_palabra(palabra_ingresada, palabra_secreta):
         else:
             letras_verificadas.append(palabra_ingresada[i])
     return letras_verificadas
-
 
